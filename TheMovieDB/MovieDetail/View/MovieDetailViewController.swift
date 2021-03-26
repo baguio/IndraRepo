@@ -61,5 +61,6 @@ class MovieDetailViewController: UIViewController {
     }
     
     @IBAction func closeButtonTriggered(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
     }
 }
