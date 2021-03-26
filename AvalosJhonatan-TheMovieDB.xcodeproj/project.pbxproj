@@ -20,7 +20,9 @@
 		D727DF2A260CF92A00B9E2EC /* MovieList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D727DF29260CF92A00B9E2EC /* MovieList.storyboard */; };
 		D727DF59260CFC2200B9E2EC /* LoginTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D727DF58260CFC2200B9E2EC /* LoginTest.swift */; };
 		D727DF6D260D06F600B9E2EC /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D727DF6C260D06F600B9E2EC /* SessionManager.swift */; };
+		D7771028260D193F006C2A7F /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7771027260D193F006C2A7F /* SignInViewModel.swift */; };
 		D7771030260D19F8006C2A7F /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = D777102F260D19F8006C2A7F /* Session.swift */; };
+		D7771038260D2324006C2A7F /* SignInLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7771037260D2324006C2A7F /* SignInLogic.swift */; };
 		D777103F260D2724006C2A7F /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D777103E260D2724006C2A7F /* MovieListViewController.swift */; };
 		D77710A1260D5CEC006C2A7F /* UICircularProgressRingLegacy in Frameworks */ = {isa = PBXBuildFile; productRef = D77710A0260D5CEC006C2A7F /* UICircularProgressRingLegacy */; };
 /* End PBXBuildFile section */
@@ -61,7 +63,9 @@
 		D727DF29260CF92A00B9E2EC /* MovieList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MovieList.storyboard; sourceTree = "<group>"; };
 		D727DF58260CFC2200B9E2EC /* LoginTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTest.swift; sourceTree = "<group>"; };
 		D727DF6C260D06F600B9E2EC /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		D7771027260D193F006C2A7F /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
 		D777102F260D19F8006C2A7F /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		D7771037260D2324006C2A7F /* SignInLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInLogic.swift; sourceTree = "<group>"; };
 		D777103E260D2724006C2A7F /* MovieListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -150,6 +154,7 @@
 		D727DF14260CF48100B9E2EC /* SignIn */ = {
 			isa = PBXGroup;
 			children = (
+				D727DF64260CFCC000B9E2EC /* Logic */,
 				D727DF5D260CFCB600B9E2EC /* View */,
 			);
 			path = SignIn;
@@ -170,6 +175,15 @@
 				D727DEDB260CF37000B9E2EC /* SignIn.storyboard */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		D727DF64260CFCC000B9E2EC /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				D7771027260D193F006C2A7F /* SignInViewModel.swift */,
+				D7771037260D2324006C2A7F /* SignInLogic.swift */,
+			);
+			path = Logic;
 			sourceTree = "<group>";
 		};
 		D727DF6B260CFD4200B9E2EC /* Session */ = {
@@ -347,7 +361,9 @@
 			files = (
 				D7771030260D19F8006C2A7F /* Session.swift in Sources */,
 				D727DF6D260D06F600B9E2EC /* SessionManager.swift in Sources */,
+				D7771038260D2324006C2A7F /* SignInLogic.swift in Sources */,
 				D727DEDA260CF37000B9E2EC /* SignInViewController.swift in Sources */,
+				D7771028260D193F006C2A7F /* SignInViewModel.swift in Sources */,
 				D727DEE0260CF37000B9E2EC /* TheMovieDB.xcdatamodeld in Sources */,
 				D777103F260D2724006C2A7F /* MovieListViewController.swift in Sources */,
 				D727DED6260CF37000B9E2EC /* AppDelegate.swift in Sources */,
