@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="q8S-fV-xOn">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Movie List View Controller-->
+        <scene sceneID="axg-1p-NsO">
+            <objects>
+                <viewController id="q8S-fV-xOn" customClass="MovieListViewController" customModule="TheMovieDB" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0OI-Jg-hGT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="nyt-Qg-Bjc">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="gZ6-il-1wx"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="nyt-Qg-Bjc" firstAttribute="leading" secondItem="0OI-Jg-hGT" secondAttribute="leading" id="4OV-e2-PXW"/>
+                            <constraint firstItem="nyt-Qg-Bjc" firstAttribute="top" secondItem="0OI-Jg-hGT" secondAttribute="top" id="CJQ-0I-tCg"/>
+                            <constraint firstAttribute="bottom" secondItem="nyt-Qg-Bjc" secondAttribute="bottom" id="Mzh-kh-1Ho"/>
+                            <constraint firstAttribute="trailing" secondItem="nyt-Qg-Bjc" secondAttribute="trailing" id="snH-kG-Jx7"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="twZ-aZ-a3t"/>
+                    <connections>
+                        <outlet property="tableView" destination="nyt-Qg-Bjc" id="Pjf-8u-KMY"/>
+                        <segue destination="uCe-8v-sOC" kind="presentation" identifier="signIn" modalPresentationStyle="fullScreen" id="1Pt-MD-tfH"/>
+                        <segue destination="dno-H7-GjK" kind="showDetail" identifier="detail" id="Qlj-CE-Ohk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cXm-hL-VNu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="119"/>
+        </scene>
+        <!--SignIn-->
+        <scene sceneID="q5k-5P-XYu">
+            <objects>
+                <viewControllerPlaceholder storyboardName="SignIn" id="uCe-8v-sOC" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SM0-ol-9Qu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="722" y="119"/>
+        </scene>
+        <!--MovieDetail-->
+        <scene sceneID="5Eg-p0-hVa">
+            <objects>
+                <viewControllerPlaceholder storyboardName="MovieDetail" id="dno-H7-GjK" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z2B-EO-GYJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="724" y="200"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
