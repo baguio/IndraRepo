@@ -31,6 +31,7 @@
 		D7771068260D36B0006C2A7F /* UpcomingMoviesResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7771067260D36B0006C2A7F /* UpcomingMoviesResult.swift */; };
 		D7771070260D4E07006C2A7F /* MovieDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D777106F260D4E07006C2A7F /* MovieDetail.storyboard */; };
 		D7771077260D4E1A006C2A7F /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7771076260D4E1A006C2A7F /* MovieDetailViewController.swift */; };
+		D777107F260D5018006C2A7F /* MovieListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D777107E260D5018006C2A7F /* MovieListCell.swift */; };
 		D7771084260D54E0006C2A7F /* MovieDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7771083260D54E0006C2A7F /* MovieDetailViewModel.swift */; };
 		D77710A1260D5CEC006C2A7F /* UICircularProgressRingLegacy in Frameworks */ = {isa = PBXBuildFile; productRef = D77710A0260D5CEC006C2A7F /* UICircularProgressRingLegacy */; };
 /* End PBXBuildFile section */
@@ -82,6 +83,7 @@
 		D7771067260D36B0006C2A7F /* UpcomingMoviesResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingMoviesResult.swift; sourceTree = "<group>"; };
 		D777106F260D4E07006C2A7F /* MovieDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MovieDetail.storyboard; sourceTree = "<group>"; };
 		D7771076260D4E1A006C2A7F /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		D777107E260D5018006C2A7F /* MovieListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListCell.swift; sourceTree = "<group>"; };
 		D7771083260D54E0006C2A7F /* MovieDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -236,6 +238,7 @@
 			children = (
 				D727DF29260CF92A00B9E2EC /* MovieList.storyboard */,
 				D777103E260D2724006C2A7F /* MovieListViewController.swift */,
+				D777107E260D5018006C2A7F /* MovieListCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -442,6 +445,7 @@
 				D727DEDA260CF37000B9E2EC /* SignInViewController.swift in Sources */,
 				D7771028260D193F006C2A7F /* SignInViewModel.swift in Sources */,
 				D727DEE0260CF37000B9E2EC /* TheMovieDB.xcdatamodeld in Sources */,
+				D777107F260D5018006C2A7F /* MovieListCell.swift in Sources */,
 				D777103F260D2724006C2A7F /* MovieListViewController.swift in Sources */,
 				D777105B260D2A5F006C2A7F /* Movie.swift in Sources */,
 				D727DED6260CF37000B9E2EC /* AppDelegate.swift in Sources */,
