@@ -9,4 +9,5 @@ import UIKit
 import Combine
 
 class MovieListViewController: UIViewController {
+    @IBOutlet weak var tableView: UITableView!
 }
