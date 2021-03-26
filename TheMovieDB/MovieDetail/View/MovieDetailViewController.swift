@@ -15,6 +15,7 @@ class MovieDetailViewController: UIViewController {
     @IBOutlet weak var overviewLabel: UILabel!
     @IBOutlet weak var releaseDateLabel: UILabel!
     @IBOutlet weak var posterImageView: UIImageView!
+    var viewModel: MovieDetailViewModel!
     @IBAction func closeButtonTriggered(_ sender: Any) {
     }
 }
