@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		D727DED6260CF37000B9E2EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D727DED5260CF37000B9E2EC /* AppDelegate.swift */; };
 		D727DED8260CF37000B9E2EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D727DED7260CF37000B9E2EC /* SceneDelegate.swift */; };
+		D727DEDA260CF37000B9E2EC /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D727DED9260CF37000B9E2EC /* SignInViewController.swift */; };
+		D727DEDD260CF37000B9E2EC /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D727DEDB260CF37000B9E2EC /* SignIn.storyboard */; };
 		D727DEE0260CF37000B9E2EC /* TheMovieDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D727DEDE260CF37000B9E2EC /* TheMovieDB.xcdatamodeld */; };
 		D727DEE2260CF37100B9E2EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D727DEE1260CF37100B9E2EC /* Assets.xcassets */; };
 		D727DEE5260CF37100B9E2EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D727DEE3260CF37100B9E2EC /* LaunchScreen.storyboard */; };
@@ -39,6 +41,7 @@
 		D727DED2260CF37000B9E2EC /* TheMovieDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheMovieDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D727DED5260CF37000B9E2EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D727DED7260CF37000B9E2EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D727DED9260CF37000B9E2EC /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		D727DEDC260CF37000B9E2EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SignIn.storyboard; sourceTree = "<group>"; };
 		D727DEDF260CF37000B9E2EC /* AvalosJhonatan_TheMovieDB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AvalosJhonatan_TheMovieDB.xcdatamodel; sourceTree = "<group>"; };
 		D727DEE1260CF37100B9E2EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -102,6 +105,7 @@
 		D727DED4260CF37000B9E2EC /* TheMovieDB */ = {
 			isa = PBXGroup;
 			children = (
+				D727DF14260CF48100B9E2EC /* SignIn */,
 				D727DF1B260CF8EE00B9E2EC /* MovieList */,
 				D727DED5260CF37000B9E2EC /* AppDelegate.swift */,
 				D727DED7260CF37000B9E2EC /* SceneDelegate.swift */,
@@ -131,12 +135,29 @@
 			path = TheMovieDBUITests;
 			sourceTree = "<group>";
 		};
+		D727DF14260CF48100B9E2EC /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				D727DF5D260CFCB600B9E2EC /* View */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
 		D727DF1B260CF8EE00B9E2EC /* MovieList */ = {
 			isa = PBXGroup;
 			children = (
 				D777103C260D270E006C2A7F /* View */,
 			);
 			path = MovieList;
+			sourceTree = "<group>";
+		};
+		D727DF5D260CFCB600B9E2EC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D727DED9260CF37000B9E2EC /* SignInViewController.swift */,
+				D727DEDB260CF37000B9E2EC /* SignIn.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		D777103C260D270E006C2A7F /* View */ = {
@@ -253,6 +274,7 @@
 			files = (
 				D727DEE5260CF37100B9E2EC /* LaunchScreen.storyboard in Resources */,
 				D727DEE2260CF37100B9E2EC /* Assets.xcassets in Resources */,
+				D727DEDD260CF37000B9E2EC /* SignIn.storyboard in Resources */,
 				D727DF2A260CF92A00B9E2EC /* MovieList.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D727DEDA260CF37000B9E2EC /* SignInViewController.swift in Sources */,
 				D727DEE0260CF37000B9E2EC /* TheMovieDB.xcdatamodeld in Sources */,
 				D777103F260D2724006C2A7F /* MovieListViewController.swift in Sources */,
 				D727DED6260CF37000B9E2EC /* AppDelegate.swift in Sources */,
@@ -317,12 +340,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D727DEDB260CF37000B9E2EC /* Main.storyboard */ = {
+		D727DEDB260CF37000B9E2EC /* SignIn.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				D727DEDC260CF37000B9E2EC /* Base */,
 			);
-			name = Main.storyboard;
+			name = SignIn.storyboard;
 			sourceTree = "<group>";
 		};
 		D727DEE3260CF37100B9E2EC /* LaunchScreen.storyboard */ = {
