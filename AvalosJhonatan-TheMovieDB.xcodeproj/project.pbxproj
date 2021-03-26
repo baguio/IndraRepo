@@ -16,8 +16,10 @@
 		D727DEE5260CF37100B9E2EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D727DEE3260CF37100B9E2EC /* LaunchScreen.storyboard */; };
 		D727DEF0260CF37100B9E2EC /* TheMovieDBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D727DEEF260CF37100B9E2EC /* TheMovieDBTests.swift */; };
 		D727DEFB260CF37100B9E2EC /* AvalosJhonatan_TheMovieDBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D727DEFA260CF37100B9E2EC /* AvalosJhonatan_TheMovieDBUITests.swift */; };
+		D727DF10260CF44B00B9E2EC /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = D727DF0F260CF44B00B9E2EC /* SDWebImage */; };
 		D727DF2A260CF92A00B9E2EC /* MovieList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D727DF29260CF92A00B9E2EC /* MovieList.storyboard */; };
 		D777103F260D2724006C2A7F /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D777103E260D2724006C2A7F /* MovieListViewController.swift */; };
+		D77710A1260D5CEC006C2A7F /* UICircularProgressRingLegacy in Frameworks */ = {isa = PBXBuildFile; productRef = D77710A0260D5CEC006C2A7F /* UICircularProgressRingLegacy */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +78,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D727DF10260CF44B00B9E2EC /* SDWebImage in Frameworks */,
+				D77710A1260D5CEC006C2A7F /* UICircularProgressRingLegacy in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,6 +189,10 @@
 			dependencies = (
 			);
 			name = TheMovieDB;
+			packageProductDependencies = (
+				D727DF0F260CF44B00B9E2EC /* SDWebImage */,
+				D77710A0260D5CEC006C2A7F /* UICircularProgressRingLegacy */,
+			);
 			productName = "AvalosJhonatan-TheMovieDB";
 			productReference = D727DED2260CF37000B9E2EC /* TheMovieDB.app */;
 			productType = "com.apple.product-type.application";
@@ -256,6 +264,10 @@
 				Base,
 			);
 			mainGroup = D727DEC9260CF37000B9E2EC;
+			packageReferences = (
+				D727DF0E260CF44B00B9E2EC /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				D777109F260D5CEC006C2A7F /* XCRemoteSwiftPackageReference "UICircularProgressRing" */,
+			);
 			productRefGroup = D727DED3260CF37000B9E2EC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -637,6 +649,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D727DF0E260CF44B00B9E2EC /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.4;
+			};
+		};
+		D777109F260D5CEC006C2A7F /* XCRemoteSwiftPackageReference "UICircularProgressRing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/baguio/UICircularProgressRing";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D727DF0F260CF44B00B9E2EC /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D727DF0E260CF44B00B9E2EC /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		D77710A0260D5CEC006C2A7F /* UICircularProgressRingLegacy */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D777109F260D5CEC006C2A7F /* XCRemoteSwiftPackageReference "UICircularProgressRing" */;
+			productName = UICircularProgressRingLegacy;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		D727DEDE260CF37000B9E2EC /* TheMovieDB.xcdatamodeld */ = {

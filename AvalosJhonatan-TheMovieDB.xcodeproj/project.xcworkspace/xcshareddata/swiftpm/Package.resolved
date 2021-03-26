@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "SDWebImage",
+        "repositoryURL": "https://github.com/SDWebImage/SDWebImage",
+        "state": {
+          "branch": null,
+          "revision": "a6b6e44eadf0d39250c10a7cc0e3b91d0bdb0e94",
+          "version": "5.10.4"
+        }
+      },
+      {
+        "package": "UICircularProgressRing",
+        "repositoryURL": "https://github.com/baguio/UICircularProgressRing",
+        "state": {
+          "branch": "master",
+          "revision": "b0eb4b5bd23f1b077576186c3e0e686415479e4d",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
