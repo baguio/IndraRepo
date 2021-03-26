@@ -24,6 +24,8 @@
 		D7771030260D19F8006C2A7F /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = D777102F260D19F8006C2A7F /* Session.swift */; };
 		D7771038260D2324006C2A7F /* SignInLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7771037260D2324006C2A7F /* SignInLogic.swift */; };
 		D777103F260D2724006C2A7F /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D777103E260D2724006C2A7F /* MovieListViewController.swift */; };
+		D7771044260D2739006C2A7F /* MovieListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7771043260D2739006C2A7F /* MovieListViewModel.swift */; };
+		D7771049260D2744006C2A7F /* MovieListLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7771048260D2744006C2A7F /* MovieListLogic.swift */; };
 		D777105B260D2A5F006C2A7F /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = D777105A260D2A5F006C2A7F /* Movie.swift */; };
 		D7771063260D2F9B006C2A7F /* TMDBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7771062260D2F9B006C2A7F /* TMDBManager.swift */; };
 		D7771068260D36B0006C2A7F /* UpcomingMoviesResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7771067260D36B0006C2A7F /* UpcomingMoviesResult.swift */; };
@@ -72,6 +74,8 @@
 		D777102F260D19F8006C2A7F /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 		D7771037260D2324006C2A7F /* SignInLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInLogic.swift; sourceTree = "<group>"; };
 		D777103E260D2724006C2A7F /* MovieListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
+		D7771043260D2739006C2A7F /* MovieListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewModel.swift; sourceTree = "<group>"; };
+		D7771048260D2744006C2A7F /* MovieListLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListLogic.swift; sourceTree = "<group>"; };
 		D777105A260D2A5F006C2A7F /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		D7771062260D2F9B006C2A7F /* TMDBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBManager.swift; sourceTree = "<group>"; };
 		D7771067260D36B0006C2A7F /* UpcomingMoviesResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingMoviesResult.swift; sourceTree = "<group>"; };
@@ -174,6 +178,7 @@
 		D727DF1B260CF8EE00B9E2EC /* MovieList */ = {
 			isa = PBXGroup;
 			children = (
+				D777103D260D2712006C2A7F /* Logic */,
 				D777103C260D270E006C2A7F /* View */,
 			);
 			path = MovieList;
@@ -230,6 +235,15 @@
 				D777103E260D2724006C2A7F /* MovieListViewController.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		D777103D260D2712006C2A7F /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				D7771043260D2739006C2A7F /* MovieListViewModel.swift */,
+				D7771048260D2744006C2A7F /* MovieListLogic.swift */,
+			);
+			path = Logic;
 			sourceTree = "<group>";
 		};
 		D777104D260D28D1006C2A7F /* TheMovieDB */ = {
@@ -413,6 +427,7 @@
 				D7771068260D36B0006C2A7F /* UpcomingMoviesResult.swift in Sources */,
 				D727DF6D260D06F600B9E2EC /* SessionManager.swift in Sources */,
 				D7771038260D2324006C2A7F /* SignInLogic.swift in Sources */,
+				D7771049260D2744006C2A7F /* MovieListLogic.swift in Sources */,
 				D727DEDA260CF37000B9E2EC /* SignInViewController.swift in Sources */,
 				D7771028260D193F006C2A7F /* SignInViewModel.swift in Sources */,
 				D727DEE0260CF37000B9E2EC /* TheMovieDB.xcdatamodeld in Sources */,
@@ -420,6 +435,7 @@
 				D777105B260D2A5F006C2A7F /* Movie.swift in Sources */,
 				D727DED6260CF37000B9E2EC /* AppDelegate.swift in Sources */,
 				D727DED8260CF37000B9E2EC /* SceneDelegate.swift in Sources */,
+				D7771044260D2739006C2A7F /* MovieListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
