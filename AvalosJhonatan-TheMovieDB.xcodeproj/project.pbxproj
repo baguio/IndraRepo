@@ -3,18 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		D727DED6260CF37000B9E2EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D727DED5260CF37000B9E2EC /* AppDelegate.swift */; };
 		D727DED8260CF37000B9E2EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D727DED7260CF37000B9E2EC /* SceneDelegate.swift */; };
-		D727DEDA260CF37000B9E2EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D727DED9260CF37000B9E2EC /* ViewController.swift */; };
-		D727DEDD260CF37000B9E2EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D727DEDB260CF37000B9E2EC /* Main.storyboard */; };
-		D727DEE0260CF37000B9E2EC /* AvalosJhonatan_TheMovieDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D727DEDE260CF37000B9E2EC /* AvalosJhonatan_TheMovieDB.xcdatamodeld */; };
+		D727DEE0260CF37000B9E2EC /* TheMovieDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D727DEDE260CF37000B9E2EC /* TheMovieDB.xcdatamodeld */; };
 		D727DEE2260CF37100B9E2EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D727DEE1260CF37100B9E2EC /* Assets.xcassets */; };
 		D727DEE5260CF37100B9E2EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D727DEE3260CF37100B9E2EC /* LaunchScreen.storyboard */; };
-		D727DEF0260CF37100B9E2EC /* AvalosJhonatan_TheMovieDBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D727DEEF260CF37100B9E2EC /* AvalosJhonatan_TheMovieDBTests.swift */; };
+		D727DEF0260CF37100B9E2EC /* TheMovieDBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D727DEEF260CF37100B9E2EC /* TheMovieDBTests.swift */; };
 		D727DEFB260CF37100B9E2EC /* AvalosJhonatan_TheMovieDBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D727DEFA260CF37100B9E2EC /* AvalosJhonatan_TheMovieDBUITests.swift */; };
 /* End PBXBuildFile section */
 
@@ -36,19 +34,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D727DED2260CF37000B9E2EC /* AvalosJhonatan-TheMovieDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AvalosJhonatan-TheMovieDB.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D727DED2260CF37000B9E2EC /* TheMovieDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheMovieDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D727DED5260CF37000B9E2EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D727DED7260CF37000B9E2EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D727DED9260CF37000B9E2EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D727DEDC260CF37000B9E2EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D727DEDC260CF37000B9E2EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SignIn.storyboard; sourceTree = "<group>"; };
 		D727DEDF260CF37000B9E2EC /* AvalosJhonatan_TheMovieDB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AvalosJhonatan_TheMovieDB.xcdatamodel; sourceTree = "<group>"; };
 		D727DEE1260CF37100B9E2EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D727DEE4260CF37100B9E2EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D727DEE6260CF37100B9E2EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D727DEEB260CF37100B9E2EC /* AvalosJhonatan-TheMovieDBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AvalosJhonatan-TheMovieDBTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D727DEEF260CF37100B9E2EC /* AvalosJhonatan_TheMovieDBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvalosJhonatan_TheMovieDBTests.swift; sourceTree = "<group>"; };
+		D727DEEB260CF37100B9E2EC /* TheMovieDBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheMovieDBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D727DEEF260CF37100B9E2EC /* TheMovieDBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheMovieDBTests.swift; sourceTree = "<group>"; };
 		D727DEF1260CF37100B9E2EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D727DEF6260CF37100B9E2EC /* AvalosJhonatan-TheMovieDBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AvalosJhonatan-TheMovieDBUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D727DEF6260CF37100B9E2EC /* TheMovieDBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheMovieDBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D727DEFA260CF37100B9E2EC /* AvalosJhonatan_TheMovieDBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvalosJhonatan_TheMovieDBUITests.swift; sourceTree = "<group>"; };
 		D727DEFC260CF37100B9E2EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,9 +78,9 @@
 		D727DEC9260CF37000B9E2EC = {
 			isa = PBXGroup;
 			children = (
-				D727DED4260CF37000B9E2EC /* AvalosJhonatan-TheMovieDB */,
-				D727DEEE260CF37100B9E2EC /* AvalosJhonatan-TheMovieDBTests */,
-				D727DEF9260CF37100B9E2EC /* AvalosJhonatan-TheMovieDBUITests */,
+				D727DED4260CF37000B9E2EC /* TheMovieDB */,
+				D727DEEE260CF37100B9E2EC /* TheMovieDBTests */,
+				D727DEF9260CF37100B9E2EC /* TheMovieDBUITests */,
 				D727DED3260CF37000B9E2EC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,52 +88,50 @@
 		D727DED3260CF37000B9E2EC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D727DED2260CF37000B9E2EC /* AvalosJhonatan-TheMovieDB.app */,
-				D727DEEB260CF37100B9E2EC /* AvalosJhonatan-TheMovieDBTests.xctest */,
-				D727DEF6260CF37100B9E2EC /* AvalosJhonatan-TheMovieDBUITests.xctest */,
+				D727DED2260CF37000B9E2EC /* TheMovieDB.app */,
+				D727DEEB260CF37100B9E2EC /* TheMovieDBTests.xctest */,
+				D727DEF6260CF37100B9E2EC /* TheMovieDBUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D727DED4260CF37000B9E2EC /* AvalosJhonatan-TheMovieDB */ = {
+		D727DED4260CF37000B9E2EC /* TheMovieDB */ = {
 			isa = PBXGroup;
 			children = (
 				D727DED5260CF37000B9E2EC /* AppDelegate.swift */,
 				D727DED7260CF37000B9E2EC /* SceneDelegate.swift */,
-				D727DED9260CF37000B9E2EC /* ViewController.swift */,
-				D727DEDB260CF37000B9E2EC /* Main.storyboard */,
 				D727DEE1260CF37100B9E2EC /* Assets.xcassets */,
 				D727DEE3260CF37100B9E2EC /* LaunchScreen.storyboard */,
 				D727DEE6260CF37100B9E2EC /* Info.plist */,
-				D727DEDE260CF37000B9E2EC /* AvalosJhonatan_TheMovieDB.xcdatamodeld */,
+				D727DEDE260CF37000B9E2EC /* TheMovieDB.xcdatamodeld */,
 			);
-			path = "AvalosJhonatan-TheMovieDB";
+			path = TheMovieDB;
 			sourceTree = "<group>";
 		};
-		D727DEEE260CF37100B9E2EC /* AvalosJhonatan-TheMovieDBTests */ = {
+		D727DEEE260CF37100B9E2EC /* TheMovieDBTests */ = {
 			isa = PBXGroup;
 			children = (
-				D727DEEF260CF37100B9E2EC /* AvalosJhonatan_TheMovieDBTests.swift */,
+				D727DEEF260CF37100B9E2EC /* TheMovieDBTests.swift */,
 				D727DEF1260CF37100B9E2EC /* Info.plist */,
 			);
-			path = "AvalosJhonatan-TheMovieDBTests";
+			path = TheMovieDBTests;
 			sourceTree = "<group>";
 		};
-		D727DEF9260CF37100B9E2EC /* AvalosJhonatan-TheMovieDBUITests */ = {
+		D727DEF9260CF37100B9E2EC /* TheMovieDBUITests */ = {
 			isa = PBXGroup;
 			children = (
 				D727DEFA260CF37100B9E2EC /* AvalosJhonatan_TheMovieDBUITests.swift */,
 				D727DEFC260CF37100B9E2EC /* Info.plist */,
 			);
-			path = "AvalosJhonatan-TheMovieDBUITests";
+			path = TheMovieDBUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D727DED1260CF37000B9E2EC /* AvalosJhonatan-TheMovieDB */ = {
+		D727DED1260CF37000B9E2EC /* TheMovieDB */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D727DEFF260CF37100B9E2EC /* Build configuration list for PBXNativeTarget "AvalosJhonatan-TheMovieDB" */;
+			buildConfigurationList = D727DEFF260CF37100B9E2EC /* Build configuration list for PBXNativeTarget "TheMovieDB" */;
 			buildPhases = (
 				D727DECE260CF37000B9E2EC /* Sources */,
 				D727DECF260CF37000B9E2EC /* Frameworks */,
@@ -146,14 +141,14 @@
 			);
 			dependencies = (
 			);
-			name = "AvalosJhonatan-TheMovieDB";
+			name = TheMovieDB;
 			productName = "AvalosJhonatan-TheMovieDB";
-			productReference = D727DED2260CF37000B9E2EC /* AvalosJhonatan-TheMovieDB.app */;
+			productReference = D727DED2260CF37000B9E2EC /* TheMovieDB.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D727DEEA260CF37100B9E2EC /* AvalosJhonatan-TheMovieDBTests */ = {
+		D727DEEA260CF37100B9E2EC /* TheMovieDBTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D727DF02260CF37100B9E2EC /* Build configuration list for PBXNativeTarget "AvalosJhonatan-TheMovieDBTests" */;
+			buildConfigurationList = D727DF02260CF37100B9E2EC /* Build configuration list for PBXNativeTarget "TheMovieDBTests" */;
 			buildPhases = (
 				D727DEE7260CF37100B9E2EC /* Sources */,
 				D727DEE8260CF37100B9E2EC /* Frameworks */,
@@ -164,14 +159,14 @@
 			dependencies = (
 				D727DEED260CF37100B9E2EC /* PBXTargetDependency */,
 			);
-			name = "AvalosJhonatan-TheMovieDBTests";
+			name = TheMovieDBTests;
 			productName = "AvalosJhonatan-TheMovieDBTests";
-			productReference = D727DEEB260CF37100B9E2EC /* AvalosJhonatan-TheMovieDBTests.xctest */;
+			productReference = D727DEEB260CF37100B9E2EC /* TheMovieDBTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D727DEF5260CF37100B9E2EC /* AvalosJhonatan-TheMovieDBUITests */ = {
+		D727DEF5260CF37100B9E2EC /* TheMovieDBUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D727DF05260CF37100B9E2EC /* Build configuration list for PBXNativeTarget "AvalosJhonatan-TheMovieDBUITests" */;
+			buildConfigurationList = D727DF05260CF37100B9E2EC /* Build configuration list for PBXNativeTarget "TheMovieDBUITests" */;
 			buildPhases = (
 				D727DEF2260CF37100B9E2EC /* Sources */,
 				D727DEF3260CF37100B9E2EC /* Frameworks */,
@@ -182,9 +177,9 @@
 			dependencies = (
 				D727DEF8260CF37100B9E2EC /* PBXTargetDependency */,
 			);
-			name = "AvalosJhonatan-TheMovieDBUITests";
+			name = TheMovieDBUITests;
 			productName = "AvalosJhonatan-TheMovieDBUITests";
-			productReference = D727DEF6260CF37100B9E2EC /* AvalosJhonatan-TheMovieDBUITests.xctest */;
+			productReference = D727DEF6260CF37100B9E2EC /* TheMovieDBUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -222,9 +217,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D727DED1260CF37000B9E2EC /* AvalosJhonatan-TheMovieDB */,
-				D727DEEA260CF37100B9E2EC /* AvalosJhonatan-TheMovieDBTests */,
-				D727DEF5260CF37100B9E2EC /* AvalosJhonatan-TheMovieDBUITests */,
+				D727DED1260CF37000B9E2EC /* TheMovieDB */,
+				D727DEEA260CF37100B9E2EC /* TheMovieDBTests */,
+				D727DEF5260CF37100B9E2EC /* TheMovieDBUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -262,7 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D727DEDA260CF37000B9E2EC /* ViewController.swift in Sources */,
-				D727DEE0260CF37000B9E2EC /* AvalosJhonatan_TheMovieDB.xcdatamodeld in Sources */,
+				D727DEE0260CF37000B9E2EC /* TheMovieDB.xcdatamodeld in Sources */,
 				D727DED6260CF37000B9E2EC /* AppDelegate.swift in Sources */,
 				D727DED8260CF37000B9E2EC /* SceneDelegate.swift in Sources */,
 			);
@@ -272,7 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D727DEF0260CF37100B9E2EC /* AvalosJhonatan_TheMovieDBTests.swift in Sources */,
+				D727DEF0260CF37100B9E2EC /* TheMovieDBTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,12 +284,12 @@
 /* Begin PBXTargetDependency section */
 		D727DEED260CF37100B9E2EC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D727DED1260CF37000B9E2EC /* AvalosJhonatan-TheMovieDB */;
+			target = D727DED1260CF37000B9E2EC /* TheMovieDB */;
 			targetProxy = D727DEEC260CF37100B9E2EC /* PBXContainerItemProxy */;
 		};
 		D727DEF8260CF37100B9E2EC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D727DED1260CF37000B9E2EC /* AvalosJhonatan-TheMovieDB */;
+			target = D727DED1260CF37000B9E2EC /* TheMovieDB */;
 			targetProxy = D727DEF7260CF37100B9E2EC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -442,15 +437,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CJ7PHMQVR6;
-				INFOPLIST_FILE = "AvalosJhonatan-TheMovieDB/Info.plist";
+				INFOPLIST_FILE = TheMovieDB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "iodev.AvalosJhonatan-TheMovieDB";
+				PRODUCT_BUNDLE_IDENTIFIER = iodev.TheMovieDB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -461,15 +456,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CJ7PHMQVR6;
-				INFOPLIST_FILE = "AvalosJhonatan-TheMovieDB/Info.plist";
+				INFOPLIST_FILE = TheMovieDB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "iodev.AvalosJhonatan-TheMovieDB";
+				PRODUCT_BUNDLE_IDENTIFIER = iodev.TheMovieDB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -480,18 +475,18 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CJ7PHMQVR6;
-				INFOPLIST_FILE = "AvalosJhonatan-TheMovieDBTests/Info.plist";
+				INFOPLIST_FILE = TheMovieDBTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "iodev.AvalosJhonatan-TheMovieDBTests";
+				PRODUCT_BUNDLE_IDENTIFIER = iodev.TheMovieDBTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AvalosJhonatan-TheMovieDB.app/AvalosJhonatan-TheMovieDB";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheMovieDB.app/TheMovieDB";
 			};
 			name = Debug;
 		};
@@ -502,18 +497,18 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CJ7PHMQVR6;
-				INFOPLIST_FILE = "AvalosJhonatan-TheMovieDBTests/Info.plist";
+				INFOPLIST_FILE = TheMovieDBTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "iodev.AvalosJhonatan-TheMovieDBTests";
+				PRODUCT_BUNDLE_IDENTIFIER = iodev.TheMovieDBTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AvalosJhonatan-TheMovieDB.app/AvalosJhonatan-TheMovieDB";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheMovieDB.app/TheMovieDB";
 			};
 			name = Release;
 		};
@@ -523,17 +518,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CJ7PHMQVR6;
-				INFOPLIST_FILE = "AvalosJhonatan-TheMovieDBUITests/Info.plist";
+				INFOPLIST_FILE = TheMovieDBUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "iodev.AvalosJhonatan-TheMovieDBUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = iodev.TheMovieDBUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "AvalosJhonatan-TheMovieDB";
+				TEST_TARGET_NAME = TheMovieDB;
 			};
 			name = Debug;
 		};
@@ -543,17 +538,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CJ7PHMQVR6;
-				INFOPLIST_FILE = "AvalosJhonatan-TheMovieDBUITests/Info.plist";
+				INFOPLIST_FILE = TheMovieDBUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "iodev.AvalosJhonatan-TheMovieDBUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = iodev.TheMovieDBUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "AvalosJhonatan-TheMovieDB";
+				TEST_TARGET_NAME = TheMovieDB;
 			};
 			name = Release;
 		};
@@ -569,7 +564,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D727DEFF260CF37100B9E2EC /* Build configuration list for PBXNativeTarget "AvalosJhonatan-TheMovieDB" */ = {
+		D727DEFF260CF37100B9E2EC /* Build configuration list for PBXNativeTarget "TheMovieDB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D727DF00260CF37100B9E2EC /* Debug */,
@@ -578,7 +573,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D727DF02260CF37100B9E2EC /* Build configuration list for PBXNativeTarget "AvalosJhonatan-TheMovieDBTests" */ = {
+		D727DF02260CF37100B9E2EC /* Build configuration list for PBXNativeTarget "TheMovieDBTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D727DF03260CF37100B9E2EC /* Debug */,
@@ -587,7 +582,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D727DF05260CF37100B9E2EC /* Build configuration list for PBXNativeTarget "AvalosJhonatan-TheMovieDBUITests" */ = {
+		D727DF05260CF37100B9E2EC /* Build configuration list for PBXNativeTarget "TheMovieDBUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D727DF06260CF37100B9E2EC /* Debug */,
@@ -599,13 +594,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		D727DEDE260CF37000B9E2EC /* AvalosJhonatan_TheMovieDB.xcdatamodeld */ = {
+		D727DEDE260CF37000B9E2EC /* TheMovieDB.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				D727DEDF260CF37000B9E2EC /* AvalosJhonatan_TheMovieDB.xcdatamodel */,
 			);
 			currentVersion = D727DEDF260CF37000B9E2EC /* AvalosJhonatan_TheMovieDB.xcdatamodel */;
-			path = AvalosJhonatan_TheMovieDB.xcdatamodeld;
+			path = TheMovieDB.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
