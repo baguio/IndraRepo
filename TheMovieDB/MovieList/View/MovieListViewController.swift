@@ -48,4 +48,23 @@ class MovieListViewController: UIViewController, UITableViewDataSource, UITableV
             })
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "detail", sender: indexPath)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        switch segue.identifier {
+        case "detail":
+            guard
+                let destination = segue.destination as? MovieDetailViewController,
+                let indexPath = sender as? IndexPath,
+                let movie = movies?[indexPath.row]
+            else {
+                return
+            }
+            
+            destination.viewModel = MovieDetailViewModel(movie: movie)
+        default: return
+        }
+    }
 }
