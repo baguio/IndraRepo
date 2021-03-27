@@ -56,3 +56,18 @@ extension XCTestCase {
         return try unwrappedResult.get()
     }
 }
+
+func buildPublisher<Success, Failure: Swift.Error>(
+    success: Bool,
+    value: Success,
+    error: Failure
+) -> AnyPublisher<Success, Failure> {
+    if success {
+        return Just<Success>(value)
+            .mapError { $0 as! Failure }
+            .eraseToAnyPublisher()
+    } else {
+        return Fail<Success, Failure>(error: error)
+            .eraseToAnyPublisher()
+    }
+}
