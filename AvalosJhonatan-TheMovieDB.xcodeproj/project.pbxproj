@@ -38,6 +38,7 @@
 		D7771084260D54E0006C2A7F /* MovieDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7771083260D54E0006C2A7F /* MovieDetailViewModel.swift */; };
 		D7771089260D54EA006C2A7F /* MovieDetailLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7771088260D54EA006C2A7F /* MovieDetailLogic.swift */; };
 		D77710A1260D5CEC006C2A7F /* UICircularProgressRingLegacy in Frameworks */ = {isa = PBXBuildFile; productRef = D77710A0260D5CEC006C2A7F /* UICircularProgressRingLegacy */; };
+		D7CA8B6B260E3B3F00C0866E /* TMDBLocalManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CA8B6A260E3B3F00C0866E /* TMDBLocalManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +106,7 @@
 		D777107E260D5018006C2A7F /* MovieListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListCell.swift; sourceTree = "<group>"; };
 		D7771083260D54E0006C2A7F /* MovieDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewModel.swift; sourceTree = "<group>"; };
 		D7771088260D54EA006C2A7F /* MovieDetailLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailLogic.swift; sourceTree = "<group>"; };
+		D7CA8B6A260E3B3F00C0866E /* TMDBLocalManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBLocalManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -303,6 +305,7 @@
 		D7771051260D2A46006C2A7F /* Local */ = {
 			isa = PBXGroup;
 			children = (
+				D7CA8B6A260E3B3F00C0866E /* TMDBLocalManager.swift */,
 				D7563938260EB36C008121E7 /* CoreDataHelper.swift */,
 			);
 			path = Local;
@@ -488,6 +491,7 @@
 				D727DED8260CF37000B9E2EC /* SceneDelegate.swift in Sources */,
 				D7771089260D54EA006C2A7F /* MovieDetailLogic.swift in Sources */,
 				D7771044260D2739006C2A7F /* MovieListViewModel.swift in Sources */,
+				D7CA8B6B260E3B3F00C0866E /* TMDBLocalManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
