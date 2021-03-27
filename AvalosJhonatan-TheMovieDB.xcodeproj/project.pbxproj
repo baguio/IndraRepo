@@ -22,6 +22,7 @@
 		D7563927260EA67D008121E7 /* TheMovieDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D727DEDE260CF37000B9E2EC /* TheMovieDB.xcdatamodeld */; };
 		D7563934260EB25A008121E7 /* LocalTMDBTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7563933260EB25A008121E7 /* LocalTMDBTest.swift */; };
 		D7563939260EB36C008121E7 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7563938260EB36C008121E7 /* CoreDataHelper.swift */; };
+		D756393E260EC4C8008121E7 /* CoreDataHelperTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D756393D260EC4C8008121E7 /* CoreDataHelperTest.swift */; };
 		D7563944260EC97B008121E7 /* Hero in Frameworks */ = {isa = PBXBuildFile; productRef = D7563943260EC97B008121E7 /* Hero */; };
 		D7563945260EC97B008121E7 /* Hero in Embed Frameworks */ = {isa = PBXBuildFile; productRef = D7563943260EC97B008121E7 /* Hero */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		D756394A260ECD87008121E7 /* RemoteTMDBTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7563949260ECD87008121E7 /* RemoteTMDBTest.swift */; };
@@ -95,6 +96,7 @@
 		D727DF6C260D06F600B9E2EC /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
 		D7563933260EB25A008121E7 /* LocalTMDBTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalTMDBTest.swift; sourceTree = "<group>"; };
 		D7563938260EB36C008121E7 /* CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
+		D756393D260EC4C8008121E7 /* CoreDataHelperTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelperTest.swift; sourceTree = "<group>"; };
 		D7563949260ECD87008121E7 /* RemoteTMDBTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteTMDBTest.swift; sourceTree = "<group>"; };
 		D7771027260D193F006C2A7F /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
 		D777102F260D19F8006C2A7F /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
@@ -185,6 +187,7 @@
 				D727DEF1260CF37100B9E2EC /* Info.plist */,
 				D727DF58260CFC2200B9E2EC /* SessionManagerTest.swift */,
 				D7563933260EB25A008121E7 /* LocalTMDBTest.swift */,
+				D756393D260EC4C8008121E7 /* CoreDataHelperTest.swift */,
 				D7563949260ECD87008121E7 /* RemoteTMDBTest.swift */,
 			);
 			path = TheMovieDBTests;
@@ -507,6 +510,7 @@
 			files = (
 				D7563934260EB25A008121E7 /* LocalTMDBTest.swift in Sources */,
 				D727DEF0260CF37100B9E2EC /* TheMovieDBTests.swift in Sources */,
+				D756393E260EC4C8008121E7 /* CoreDataHelperTest.swift in Sources */,
 				D756394A260ECD87008121E7 /* RemoteTMDBTest.swift in Sources */,
 				D727DF59260CFC2200B9E2EC /* SessionManagerTest.swift in Sources */,
 			);
