@@ -38,7 +38,7 @@ class SessionManager {
         case credentialsAreInvalid
     }
     
-    enum ContinuousSessionError: Swift.Error {
+    enum PersistedSessionError: Swift.Error {
         case notAvailable
     }
 }

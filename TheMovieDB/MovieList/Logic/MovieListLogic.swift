@@ -27,7 +27,7 @@ class MovieListLogic: MovieListLogicProtocol {
     let remoteManager = TMDBRemoteManager()
     let sessionManager = SessionManager()
     
-    func obtainSession() -> AnyPublisher<Session, SessionManager.ContinuousSessionError> {
+    func obtainSession() -> AnyPublisher<Session, SessionManager.PersistedSessionError> {
         SessionManager().obtainPersistedSession()
     }
     

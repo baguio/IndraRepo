@@ -39,7 +39,7 @@ class MovieListViewController: UIViewController, UITableViewDataSource, UITableV
     override func viewDidAppear(_ animated: Bool) {
         obtainMoviesSink = viewModel.obtainUpcomingMovies()
             .sink(receiveCompletion: { (result) in
-                if case .failure(let error) = result, error is SessionManager.ContinuousSessionError {
+                if case .failure(let error) = result, error is SessionManager.PersistedSessionError {
                     self.performSegue(withIdentifier: "signIn", sender: nil)
                 }
             }, receiveValue: { (movies) in
