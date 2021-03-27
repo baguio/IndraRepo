@@ -11,7 +11,7 @@ import SDWebImage
 
 class MovieDetailLogic {
     func obtainPoster(for movie: Movie) -> AnyPublisher<Data, Swift.Error> {
-        TMDBManager().obtainMoviePoster(with: movie.poster_path)
+        TMDBRemoteManager().obtainMoviePoster(with: movie.poster_path)
             .eraseToAnyPublisher()
     }
 }

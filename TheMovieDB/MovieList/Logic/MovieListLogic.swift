@@ -9,11 +9,11 @@ import Foundation
 import Combine
 
 class MovieListLogic {
-    let remoteManager = TMDBManager()
     
     func obtainSession() -> AnyPublisher<Session, SessionManager.ContinuousSessionError> {
         // TODO: Real session holding
         Fail<Session, SessionManager.ContinuousSessionError>(error: .notAvailable).eraseToAnyPublisher()
+    let remoteManager = TMDBRemoteManager()
     }
     
     func obtainUpcomingMovies(atPage page: Int = 1) -> AnyPublisher<[Movie], Swift.Error> {

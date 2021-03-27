@@ -35,7 +35,7 @@ struct TMDBURL {
     }
 }
 
-class TMDBManager {
+class TMDBRemoteManager {
     let urlSession = URLSession.shared
     
     func obtainUpcomingMovies(at page: Int) -> AnyPublisher<UpcomingMoviesResult, Swift.Error> {
