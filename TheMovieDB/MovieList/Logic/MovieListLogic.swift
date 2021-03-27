@@ -8,12 +8,27 @@
 import Foundation
 import Combine
 
-class MovieListLogic {
+protocol MovieListLogicProtocol {
+    func obtainSession(
+    ) -> AnyPublisher<Session, SessionManager.PersistedSessionError>
+    
+    func obtainUpcomingMovies(
+        atPage page: Int
+    ) -> AnyPublisher<[Movie], Swift.Error>
+}
+
+extension MovieListLogicProtocol {
+    func obtainUpcomingMovies() -> AnyPublisher<[Movie], Swift.Error> {
+        obtainUpcomingMovies(atPage: 1)
+    }
+}
+
+class MovieListLogic: MovieListLogicProtocol {
+    let remoteManager = TMDBRemoteManager()
+    let sessionManager = SessionManager()
     
     func obtainSession() -> AnyPublisher<Session, SessionManager.ContinuousSessionError> {
-        // TODO: Real session holding
-        Fail<Session, SessionManager.ContinuousSessionError>(error: .notAvailable).eraseToAnyPublisher()
-    let remoteManager = TMDBRemoteManager()
+        SessionManager().obtainPersistedSession()
     }
     
     func obtainUpcomingMovies(atPage page: Int = 1) -> AnyPublisher<[Movie], Swift.Error> {

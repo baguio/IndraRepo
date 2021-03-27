@@ -9,7 +9,7 @@ import Foundation
 import Combine
 
 class MovieListViewModel {
-    let logic = MovieListLogic()
+    var logic: MovieListLogicProtocol = MovieListLogic()
     
     func obtainUpcomingMovies() -> AnyPublisher<[Movie], Swift.Error> {
         logic.obtainSession()

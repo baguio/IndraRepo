@@ -13,7 +13,7 @@ protocol SignInViewModelProtocol {
 }
 
 class SignInViewModel: SignInViewModelProtocol {
-    let logic = SignInLogic()
+    var logic: SignInLogicProtocol = SignInLogic()
     
     func signIn(withUser username: String?, password: String?) -> AnyPublisher<Session, SessionManager.SignInError> {
         logic.signIn(with: (user: username, password: password))

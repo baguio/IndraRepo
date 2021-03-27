@@ -10,7 +10,7 @@ import Combine
 
 class MovieDetailViewModel {
     let movie: Movie
-    let logic = MovieDetailLogic()
+    var logic: MovieDetailLogicProtocol = MovieDetailLogic()
     
     init(movie: Movie) {
         self.movie = movie

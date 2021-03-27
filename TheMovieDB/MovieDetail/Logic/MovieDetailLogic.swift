@@ -9,7 +9,11 @@ import Foundation
 import Combine
 import SDWebImage
 
-class MovieDetailLogic {
+protocol MovieDetailLogicProtocol {
+    func obtainPoster(for movie: Movie) -> AnyPublisher<Data, Swift.Error>
+}
+
+class MovieDetailLogic: MovieDetailLogicProtocol {
     func obtainPoster(for movie: Movie) -> AnyPublisher<Data, Swift.Error> {
         TMDBRemoteManager().obtainMoviePoster(with: movie.poster_path)
             .eraseToAnyPublisher()
