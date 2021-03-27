@@ -9,6 +9,22 @@ import Foundation
 import Combine
 
 class SessionManager {
+    private static var currentSession: Session?
+    
+    func obtainPersistedSession() -> AnyPublisher<Session, SessionManager.PersistedSessionError> {
+        Just<Session?>(Self.currentSession)
+            .mapError { $0 as Swift.Error }
+            .tryMap {
+                if let session = $0 {
+                    return session
+                } else {
+                    throw SessionManager.PersistedSessionError.notAvailable
+                }
+            }
+            .mapError { $0 as! SessionManager.PersistedSessionError }
+            .eraseToAnyPublisher()
+    }
+    
     func signIn(
         with credentials: (user: String, password: String)
     ) -> AnyPublisher<Session, SessionManager.SignInError> {
@@ -22,7 +38,9 @@ class SessionManager {
                 if credentials.user == "Admin",
                    credentials.password == "Password*123"
                 {
-                    result.send(Session())
+                    let newSession = Session()
+                    SessionManager.currentSession = newSession
+                    result.send(newSession)
                     result.send(completion: .finished)
                 } else {
                     result.send(completion: .failure(.userNotRegistered))
