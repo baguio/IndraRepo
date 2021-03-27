@@ -20,6 +20,7 @@
 		D727DF2A260CF92A00B9E2EC /* MovieList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D727DF29260CF92A00B9E2EC /* MovieList.storyboard */; };
 		D727DF59260CFC2200B9E2EC /* LoginTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D727DF58260CFC2200B9E2EC /* LoginTest.swift */; };
 		D727DF6D260D06F600B9E2EC /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D727DF6C260D06F600B9E2EC /* SessionManager.swift */; };
+		D7563939260EB36C008121E7 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7563938260EB36C008121E7 /* CoreDataHelper.swift */; };
 		D7563944260EC97B008121E7 /* Hero in Frameworks */ = {isa = PBXBuildFile; productRef = D7563943260EC97B008121E7 /* Hero */; };
 		D7563945260EC97B008121E7 /* Hero in Embed Frameworks */ = {isa = PBXBuildFile; productRef = D7563943260EC97B008121E7 /* Hero */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		D7771028260D193F006C2A7F /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7771027260D193F006C2A7F /* SignInViewModel.swift */; };
@@ -89,6 +90,7 @@
 		D727DF29260CF92A00B9E2EC /* MovieList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MovieList.storyboard; sourceTree = "<group>"; };
 		D727DF58260CFC2200B9E2EC /* LoginTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTest.swift; sourceTree = "<group>"; };
 		D727DF6C260D06F600B9E2EC /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		D7563938260EB36C008121E7 /* CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
 		D7771027260D193F006C2A7F /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
 		D777102F260D19F8006C2A7F /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 		D7771037260D2324006C2A7F /* SignInLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInLogic.swift; sourceTree = "<group>"; };
@@ -274,6 +276,7 @@
 		D777104D260D28D1006C2A7F /* TheMovieDB */ = {
 			isa = PBXGroup;
 			children = (
+				D7771051260D2A46006C2A7F /* Local */,
 				D7771050260D2A42006C2A7F /* Remote */,
 				D777105A260D2A5F006C2A7F /* Movie.swift */,
 				D7771067260D36B0006C2A7F /* UpcomingMoviesResult.swift */,
@@ -295,6 +298,14 @@
 				D7771062260D2F9B006C2A7F /* TMDBRemoteManager.swift */,
 			);
 			path = Remote;
+			sourceTree = "<group>";
+		};
+		D7771051260D2A46006C2A7F /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				D7563938260EB36C008121E7 /* CoreDataHelper.swift */,
+			);
+			path = Local;
 			sourceTree = "<group>";
 		};
 		D7771074260D4E0A006C2A7F /* View */ = {
@@ -468,6 +479,7 @@
 				D727DEDA260CF37000B9E2EC /* SignInViewController.swift in Sources */,
 				D7771028260D193F006C2A7F /* SignInViewModel.swift in Sources */,
 				D727DEE0260CF37000B9E2EC /* TheMovieDB.xcdatamodeld in Sources */,
+				D7563939260EB36C008121E7 /* CoreDataHelper.swift in Sources */,
 				D777107F260D5018006C2A7F /* MovieListCell.swift in Sources */,
 				D777103F260D2724006C2A7F /* MovieListViewController.swift in Sources */,
 				D777105B260D2A5F006C2A7F /* Movie.swift in Sources */,
