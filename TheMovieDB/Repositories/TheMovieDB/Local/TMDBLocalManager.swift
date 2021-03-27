@@ -52,6 +52,8 @@ final class TMDBLocalManager {
     }
 }
 
+// Note: Using Publishers for these methods has proven problematic
+// TODO: Skip using Combine altogether
 extension TMDBLocalManager {
     func saveUpcomingMovies(
         _ upcomingMovies: UpcomingMoviesResult
