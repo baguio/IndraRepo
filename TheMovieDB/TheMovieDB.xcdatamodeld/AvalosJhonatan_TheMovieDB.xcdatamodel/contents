@@ -1,4 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20D74" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="LocalMovie" representedClassName="LocalMovie" syncable="YES" codeGenerationType="class">
+        <attribute name="overview" optional="YES" attributeType="String"/>
+        <attribute name="page" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="poster_path" optional="YES" attributeType="String"/>
+        <attribute name="release_date" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="vote_average" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="LocalUpcomingMoviesData" representedClassName="LocalUpcomingMoviesData" syncable="YES" codeGenerationType="class">
+        <attribute name="query_date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="total_movies" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="total_pages" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="LocalUpcomingMoviesPage" representedClassName="LocalUpcomingMoviesPage" syncable="YES" codeGenerationType="class">
+        <attribute name="page" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="LocalMovie" positionX="-63" positionY="-18" width="128" height="119"/>
+        <element name="LocalUpcomingMoviesData" positionX="-63" positionY="27" width="128" height="74"/>
+        <element name="LocalUpcomingMoviesPage" positionX="-54" positionY="36" width="128" height="44"/>
+    </elements>
 </model>
