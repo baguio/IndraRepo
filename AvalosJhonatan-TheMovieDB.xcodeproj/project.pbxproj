@@ -11,7 +11,6 @@
 		D727DED8260CF37000B9E2EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D727DED7260CF37000B9E2EC /* SceneDelegate.swift */; };
 		D727DEDA260CF37000B9E2EC /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D727DED9260CF37000B9E2EC /* SignInViewController.swift */; };
 		D727DEDD260CF37000B9E2EC /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D727DEDB260CF37000B9E2EC /* SignIn.storyboard */; };
-		D727DEE0260CF37000B9E2EC /* TheMovieDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D727DEDE260CF37000B9E2EC /* TheMovieDB.xcdatamodeld */; };
 		D727DEE2260CF37100B9E2EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D727DEE1260CF37100B9E2EC /* Assets.xcassets */; };
 		D727DEE5260CF37100B9E2EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D727DEE3260CF37100B9E2EC /* LaunchScreen.storyboard */; };
 		D727DEF0260CF37100B9E2EC /* TheMovieDBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D727DEEF260CF37100B9E2EC /* TheMovieDBTests.swift */; };
@@ -20,6 +19,7 @@
 		D727DF2A260CF92A00B9E2EC /* MovieList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D727DF29260CF92A00B9E2EC /* MovieList.storyboard */; };
 		D727DF59260CFC2200B9E2EC /* LoginTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D727DF58260CFC2200B9E2EC /* LoginTest.swift */; };
 		D727DF6D260D06F600B9E2EC /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D727DF6C260D06F600B9E2EC /* SessionManager.swift */; };
+		D7563927260EA67D008121E7 /* TheMovieDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D727DEDE260CF37000B9E2EC /* TheMovieDB.xcdatamodeld */; };
 		D7563939260EB36C008121E7 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7563938260EB36C008121E7 /* CoreDataHelper.swift */; };
 		D7563944260EC97B008121E7 /* Hero in Frameworks */ = {isa = PBXBuildFile; productRef = D7563943260EC97B008121E7 /* Hero */; };
 		D7563945260EC97B008121E7 /* Hero in Embed Frameworks */ = {isa = PBXBuildFile; productRef = D7563943260EC97B008121E7 /* Hero */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
@@ -477,11 +477,11 @@
 				D7771030260D19F8006C2A7F /* Session.swift in Sources */,
 				D7771068260D36B0006C2A7F /* UpcomingMoviesResult.swift in Sources */,
 				D727DF6D260D06F600B9E2EC /* SessionManager.swift in Sources */,
+				D7563927260EA67D008121E7 /* TheMovieDB.xcdatamodeld in Sources */,
 				D7771038260D2324006C2A7F /* SignInLogic.swift in Sources */,
 				D7771049260D2744006C2A7F /* MovieListLogic.swift in Sources */,
 				D727DEDA260CF37000B9E2EC /* SignInViewController.swift in Sources */,
 				D7771028260D193F006C2A7F /* SignInViewModel.swift in Sources */,
-				D727DEE0260CF37000B9E2EC /* TheMovieDB.xcdatamodeld in Sources */,
 				D7563939260EB36C008121E7 /* CoreDataHelper.swift in Sources */,
 				D777107F260D5018006C2A7F /* MovieListCell.swift in Sources */,
 				D777103F260D2724006C2A7F /* MovieListViewController.swift in Sources */,
