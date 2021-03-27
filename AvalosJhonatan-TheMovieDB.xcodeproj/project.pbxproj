@@ -17,7 +17,7 @@
 		D727DEFB260CF37100B9E2EC /* AvalosJhonatan_TheMovieDBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D727DEFA260CF37100B9E2EC /* AvalosJhonatan_TheMovieDBUITests.swift */; };
 		D727DF10260CF44B00B9E2EC /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = D727DF0F260CF44B00B9E2EC /* SDWebImage */; };
 		D727DF2A260CF92A00B9E2EC /* MovieList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D727DF29260CF92A00B9E2EC /* MovieList.storyboard */; };
-		D727DF59260CFC2200B9E2EC /* LoginTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D727DF58260CFC2200B9E2EC /* LoginTest.swift */; };
+		D727DF59260CFC2200B9E2EC /* SessionManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D727DF58260CFC2200B9E2EC /* SessionManagerTest.swift */; };
 		D727DF6D260D06F600B9E2EC /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D727DF6C260D06F600B9E2EC /* SessionManager.swift */; };
 		D7563927260EA67D008121E7 /* TheMovieDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D727DEDE260CF37000B9E2EC /* TheMovieDB.xcdatamodeld */; };
 		D7563939260EB36C008121E7 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7563938260EB36C008121E7 /* CoreDataHelper.swift */; };
@@ -89,7 +89,7 @@
 		D727DEFA260CF37100B9E2EC /* AvalosJhonatan_TheMovieDBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvalosJhonatan_TheMovieDBUITests.swift; sourceTree = "<group>"; };
 		D727DEFC260CF37100B9E2EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D727DF29260CF92A00B9E2EC /* MovieList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MovieList.storyboard; sourceTree = "<group>"; };
-		D727DF58260CFC2200B9E2EC /* LoginTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTest.swift; sourceTree = "<group>"; };
+		D727DF58260CFC2200B9E2EC /* SessionManagerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManagerTest.swift; sourceTree = "<group>"; };
 		D727DF6C260D06F600B9E2EC /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
 		D7563938260EB36C008121E7 /* CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
 		D7771027260D193F006C2A7F /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
@@ -179,7 +179,7 @@
 			children = (
 				D727DEEF260CF37100B9E2EC /* TheMovieDBTests.swift */,
 				D727DEF1260CF37100B9E2EC /* Info.plist */,
-				D727DF58260CFC2200B9E2EC /* LoginTest.swift */,
+				D727DF58260CFC2200B9E2EC /* SessionManagerTest.swift */,
 			);
 			path = TheMovieDBTests;
 			sourceTree = "<group>";
@@ -500,7 +500,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D727DEF0260CF37100B9E2EC /* TheMovieDBTests.swift in Sources */,
-				D727DF59260CFC2200B9E2EC /* LoginTest.swift in Sources */,
+				D727DF59260CFC2200B9E2EC /* SessionManagerTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

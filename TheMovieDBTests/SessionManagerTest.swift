@@ -30,7 +30,7 @@ class LoginTest: XCTestCase {
         do {
             _ = try await(sessionManager.signIn(with: invalidCredentials))
             XCTFail()
-        } catch SessionManager.Error.userNotRegistered {
+        } catch SessionManager.SignInError.userNotRegistered {
         } catch {
             XCTFail()
         }
@@ -44,7 +44,7 @@ class LoginTest: XCTestCase {
         do {
             _ = try await(sessionManager.signIn(with: invalidCredentials))
             XCTFail()
-        } catch SessionManager.Error.userNotRegistered {
+        } catch SessionManager.SignInError.userNotRegistered {
         } catch {
             XCTFail()
         }
